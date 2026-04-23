@@ -1,0 +1,63 @@
+# Core PDF processing
+
+pypdf
+PyPDF2
+
+# Docling 
+docling
+langchain-docling
+
+# LangChain ecosystem
+
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Embeddings (Hugging Face)
+
+sentence-transformers
+transformers
+huggingface_hub
+
+# Vector database (choose ONE)
+
+chromadb
+
+# faiss-cpu        # alternative (uncomment if using FAISS)
+
+# pinecone-client  # alternative (cloud vector DB)
+
+# LLM integration (for Grok via API)
+
+requests
+httpx
+
+# Environment & utilities
+
+python-dotenv
+tqdm
+numpy
+scikit-learn
+
+# Optional (better performance / tokenization)
+
+tiktoken
+
+langchain-groq
+streamlit
+
+# ── Audio download ────────────────────────────────────────────────────────────
+yt-dlp                 # download YouTube audio (actively maintained fork of youtube-dl)
+
+# ── Web scraping (from your existing code) ───────────────────────────────────
+requests
+beautifulsoup4
+feedparser
+
+# ── Whisper (NEW - required for transcription) ────────────────────────────────
+openai-whisper         # Whisper model + transcription
+torch                  # required backend for Whisper
+
+# ── Audio processing dependencies ─────────────────────────────────────────────
+ffmpeg-python          # Python wrapper (optional but useful)
