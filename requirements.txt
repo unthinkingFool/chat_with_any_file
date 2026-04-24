@@ -50,7 +50,7 @@ streamlit
 # ── Audio download ────────────────────────────────────────────────────────────
 yt-dlp                 # download YouTube audio (actively maintained fork of youtube-dl)
 
-# ── Web scraping (from your existing code) ───────────────────────────────────
+# ── Web scraping ───────────────────────────────────
 requests
 beautifulsoup4
 feedparser

@@ -1,20 +1,3 @@
-"""
-video_rag.py
-============
-A beginner-friendly, modular tool that:
-  1. Downloads a YouTube video's audio (yt-dlp)
-  2. Transcribes it locally for FREE (OpenAI Whisper)
-  3. Stores the transcript in ChromaDB (vector DB)
-  4. Lets you ask any question about the video via a LangChain RAG chain
-     powered by Groq's free llama-3.3-70b-versatile model.
-
-Usage
------
-  python video_rag.py
-
-Just set VIDEO_URL below and run!
-"""
-
 import os
 import logging
 import textwrap
